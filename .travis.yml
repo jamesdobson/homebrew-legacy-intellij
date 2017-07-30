@@ -1,0 +1,10 @@
+language: ruby
+os: osx
+env:
+  - IJ_VERSION=12-1
+  - IJ_VERSION=2016-1
+
+script:
+  - "brew cask audit Casks/intellij-idea-$IJ_VERSION.rb"
+  - "brew cask install Casks/intellij-idea-$IJ_VERSION.rb"
+  - "brew cask uninstall intellij-idea-$IJ_VERSION"
