@@ -20,7 +20,7 @@ So, first you must install [Homebrew](http://brew.sh) and
 To add the tap and install IntelliJ 2016.1, execute these commands:
 ```bash
 $ brew tap jamesdobson/legacy-intellij            # you only have to do this once!
-$ brew cask install intellij-2016-1
+$ brew cask install intellij-idea-2016-1
 ```
 
 
